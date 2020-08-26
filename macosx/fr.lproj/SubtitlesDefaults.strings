@@ -80,7 +80,7 @@
 "QAt-5X-NBT.ibExternalAccessibilityDescription" = "Afficher toutes les langues des sous-titres";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Show all subtitles languages in the Languages list."; ObjectID = "QAt-5X-NBT"; */
-"QAt-5X-NBT.ibShadowedToolTip" = "Afficher tous les langages de sous-titres dans la liste \"Langues\".";
+"QAt-5X-NBT.ibShadowedToolTip" = "Afficher tous les languages de sous-titres dans la liste \"Langues\".";
 
 /* Class = "NSMenuItem"; title = "Foreign Audio Subtitles Track"; ObjectID = "QRd-XH-6TH"; */
 "QRd-XH-6TH.title" = "Piste de sous-titres audio étrangers";

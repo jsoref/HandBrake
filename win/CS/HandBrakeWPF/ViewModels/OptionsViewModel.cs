@@ -149,7 +149,7 @@ namespace HandBrakeWPF.ViewModels
 
         /* General */
 
-        public BindingList<InterfaceLanguage> InterfaceLanguages { get; } = new BindingList<InterfaceLanguage>(InterfaceLanguageUtilities.GetUserInterfaceLangauges());
+        public BindingList<InterfaceLanguage> InterfaceLanguages { get; } = new BindingList<InterfaceLanguage>(InterfaceLanguageUtilities.GetUserInterfaceLanguages());
 
         public InterfaceLanguage SelectedLanguage
         {

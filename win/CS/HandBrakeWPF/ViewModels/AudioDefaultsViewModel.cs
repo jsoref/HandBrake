@@ -54,7 +54,7 @@ namespace HandBrakeWPF.ViewModels
             this.Task = task;
             this.AudioBehaviours = new AudioBehaviours();
             this.SelectedAvailableToMove = new BindingList<string>();
-            this.SelectedLangaugesToMove = new BindingList<string>();
+            this.SelectedLanguagesToMove = new BindingList<string>();
             this.AvailableLanguages = new BindingList<string>();
             this.AudioEncoders = EnumHelper<AudioEncoder>.GetEnumList();
 
@@ -133,14 +133,14 @@ namespace HandBrakeWPF.ViewModels
         public bool IsApplied { get; set; }
 
         /// <summary>
-        /// Gets SelectedLangauges.
+        /// Gets SelectedLanguages.
         /// </summary>
         public BindingList<string> SelectedAvailableToMove { get; private set; }
 
         /// <summary>
-        /// Gets SelectedLangauges.
+        /// Gets SelectedLanguages.
         /// </summary>
-        public BindingList<string> SelectedLangaugesToMove { get; private set; }
+        public BindingList<string> SelectedLanguagesToMove { get; private set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether audio allow m p 3 pass.
@@ -393,7 +393,7 @@ namespace HandBrakeWPF.ViewModels
                 foreach (string item in copiedList)
                 {
                     this.AvailableLanguages.Remove(item);
-                    this.AudioBehaviours.SelectedLangauges.Add(item);
+                    this.AudioBehaviours.SelectedLanguages.Add(item);
                 }
 
                 this.AvailableLanguages = new BindingList<string>(this.AvailableLanguages.OrderBy(o => o).ToList());
@@ -405,12 +405,12 @@ namespace HandBrakeWPF.ViewModels
         /// </summary>
         public void LanguageMoveLeft()
         {
-            if (this.SelectedLangaugesToMove.Count > 0)
+            if (this.SelectedLanguagesToMove.Count > 0)
             {
-                List<string> copiedList = this.SelectedLangaugesToMove.ToList();
+                List<string> copiedList = this.SelectedLanguagesToMove.ToList();
                 foreach (string item in copiedList)
                 {
-                    this.AudioBehaviours.SelectedLangauges.Remove(item);
+                    this.AudioBehaviours.SelectedLanguages.Remove(item);
                     this.AvailableLanguages.Add(item);
                 }
             }
@@ -423,13 +423,13 @@ namespace HandBrakeWPF.ViewModels
         /// </summary>
         public void LanguageClearAll()
         {
-            foreach (string item in this.AudioBehaviours.SelectedLangauges)
+            foreach (string item in this.AudioBehaviours.SelectedLanguages)
             {
                 this.AvailableLanguages.Add(item);
             }
             this.AvailableLanguages = new BindingList<string>(this.AvailableLanguages.OrderBy(o => o).ToList());
 
-            this.AudioBehaviours.SelectedLangauges.Clear();
+            this.AudioBehaviours.SelectedLanguages.Clear();
         }
 
         public void ResetApplied()
@@ -487,10 +487,10 @@ namespace HandBrakeWPF.ViewModels
 
                 this.NotifyOfPropertyChange(() => this.BehaviourTracks);
                 
-                foreach (string selectedItem in behaviours.SelectedLangauges)
+                foreach (string selectedItem in behaviours.SelectedLanguages)
                 {
                     this.AvailableLanguages.Remove(selectedItem);
-                    this.AudioBehaviours.SelectedLangauges.Add(selectedItem);
+                    this.AudioBehaviours.SelectedLanguages.Add(selectedItem);
                 }
             }
 
