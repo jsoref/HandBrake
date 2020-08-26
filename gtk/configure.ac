@@ -109,7 +109,7 @@ AC_SUBST(GLOBALLDFLAGS, $LDFLAGS )
 
 
 dnl ***************************************************************************
-dnl Internatinalization
+dnl Internationalization
 dnl ***************************************************************************
 GETTEXT_PACKAGE=ghb
 AC_SUBST(GETTEXT_PACKAGE)
