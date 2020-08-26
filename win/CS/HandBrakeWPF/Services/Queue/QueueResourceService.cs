@@ -16,7 +16,7 @@ namespace HandBrakeWPF.Services.Queue
 
     public class QueueResourceService
     {
-        private readonly object lockOjb = new object();
+        private readonly object lockObj = new object();
 
         private HashSet<Guid> qsvInstances = new HashSet<Guid>();
 
@@ -26,7 +26,7 @@ namespace HandBrakeWPF.Services.Queue
 
         public Guid? GetHardwareLock(VideoEncoder encoder)
         {
-            lock (this.lockOjb)
+            lock (this.lockObj)
             {
                 switch (encoder)
                 {
@@ -82,7 +82,7 @@ namespace HandBrakeWPF.Services.Queue
                 return;
             }
 
-            lock (this.lockOjb)
+            lock (this.lockObj)
             {
                 switch (encoder)
                 {
