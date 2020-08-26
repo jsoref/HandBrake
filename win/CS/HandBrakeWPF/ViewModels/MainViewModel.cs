@@ -2134,8 +2134,8 @@ namespace HandBrakeWPF.ViewModels
                 }
                 else
                 {
-                    this.SourceLabel = Resources.Main_ScanFailled_CheckLog;
-                    this.StatusLabel = Resources.Main_ScanFailled_CheckLog;
+                    this.SourceLabel = Resources.Main_ScanFailed_CheckLog;
+                    this.StatusLabel = Resources.Main_ScanFailed_CheckLog;
                 }
             });
         }
