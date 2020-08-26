@@ -2851,7 +2851,7 @@ hb_buffer_t* hb_qsv_copy_frame(hb_job_t *job, AVFrame *frame, int is_vpp)
             // replace the mem id to mem id from the pool
             output_surface->Data.MemId = mid;
         }
-        // copy input sufrace to sufrace from the pool
+        // copy input surface to surface from the pool
         IDirect3DDevice9 *pDevice = NULL;
         HANDLE handle;
 
@@ -2893,7 +2893,7 @@ hb_buffer_t* hb_qsv_copy_frame(hb_job_t *job, AVFrame *frame, int is_vpp)
             // Make sure that we pass QSVMid to QSV encoder
             output_surface->Data.MemId = mid;
         }
-        // copy input sufrace to sufrace from the pool
+        // copy input surface to surface from the pool
         ID3D11DeviceContext_CopySubresourceRegion(device_context, mid->handle_pair->first, output_index, 0, 0, 0, input_pair->first, input_index, NULL);
         ID3D11DeviceContext_Flush(device_context);
     }
