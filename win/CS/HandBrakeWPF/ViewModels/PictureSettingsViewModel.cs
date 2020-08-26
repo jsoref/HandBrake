@@ -509,7 +509,7 @@ namespace HandBrakeWPF.ViewModels
 
             this.NotifyOfPropertyChange(() => this.Task);
 
-            this.UpdateVisibileControls();
+            this.UpdateVisibleControls();
         }
 
         public void UpdateTask(EncodeTask task)
@@ -536,7 +536,7 @@ namespace HandBrakeWPF.ViewModels
             this.NotifyOfPropertyChange(() => this.MaxWidth);
             this.NotifyOfPropertyChange(() => this.MaxHeight);
 
-            this.UpdateVisibileControls();
+            this.UpdateVisibleControls();
         }
 
         public void SetSource(Source source, Title title, Preset preset, EncodeTask task)
@@ -713,7 +713,7 @@ namespace HandBrakeWPF.ViewModels
             }
 
             // Step 1, Update what controls are visible.
-            this.UpdateVisibileControls();
+            this.UpdateVisibleControls();
 
             // Step 2, Set sensible defaults
             if (changedField == ChangedPictureField.Anamorphic && (this.SelectedAnamorphicMode == Anamorphic.None || this.SelectedAnamorphicMode == Anamorphic.Loose))
@@ -773,7 +773,7 @@ namespace HandBrakeWPF.ViewModels
             }
         }
 
-        private void UpdateVisibileControls()
+        private void UpdateVisibleControls()
         {
             this.ShowDisplaySize = true;
             this.ShowKeepAR = true;
