@@ -1322,7 +1322,7 @@ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  021
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>カスタム</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>表示幅:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">

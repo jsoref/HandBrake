@@ -1323,7 +1323,7 @@ HandBrake를 종료하시겠습니까?</value>
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>사용자 설정</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>화면 너비:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">

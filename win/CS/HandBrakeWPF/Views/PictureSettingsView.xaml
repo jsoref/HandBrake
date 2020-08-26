@@ -113,12 +113,12 @@
                           AutomationProperties.Name="{x:Static Properties:Resources.PictureSettingsView_Modulus}"/>
 
                 <!-- Custom Anamorphic -->
-                <Label Content="{x:Static Properties:Resources.PictureSettingsView_DisplayWitdh}" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Visibility="{Binding ShowCustomAnamorphicControls, Converter={StaticResource boolToVisConverter}}"/>
+                <Label Content="{x:Static Properties:Resources.PictureSettingsView_DisplayWidth}" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Visibility="{Binding ShowCustomAnamorphicControls, Converter={StaticResource boolToVisConverter}}"/>
                 <Label Content="{x:Static Properties:Resources.PictureSettingsView_PAR}" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Visibility="{Binding ShowCustomAnamorphicControls, Converter={StaticResource boolToVisConverter}}" />
 
                 <controls:NumberBox Width="60" Number="{Binding DisplayWidth, Mode=TwoWay}" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" Margin="0,0,0,5" 
                                     AllowEmpty="False" IsEnabled="{Binding MaintainAspectRatio, Converter={StaticResource boolConverter}, ConverterParameter=true}"
-                                    AutomationProperties.Name="{x:Static Properties:Resources.PictureSettingsView_DisplayWitdh}"
+                                    AutomationProperties.Name="{x:Static Properties:Resources.PictureSettingsView_DisplayWidth}"
                                     Visibility="{Binding ShowCustomAnamorphicControls, Converter={StaticResource boolToVisConverter}}" />
                 <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Visibility="{Binding ShowCustomAnamorphicControls, Converter={StaticResource boolToVisConverter}}">
                     <controls:NumberBox Width="60" Number="{Binding ParWidth, Mode=TwoWay}" HorizontalAlignment="Left" AllowEmpty="False"

@@ -1324,7 +1324,7 @@ Você gostaria de substituí-lo?</value>
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>Personalizado</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>Largura da Tela:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">

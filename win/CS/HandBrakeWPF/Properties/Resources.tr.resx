@@ -1324,7 +1324,7 @@ Devam etmek istiyor musunuz? </value>
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>Özel</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>Ekran Genişliği:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">

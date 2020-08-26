@@ -1324,7 +1324,7 @@ Souhaitez-vous l'écraser ?</value>
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>Personnalisé</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>Largeur d'affichage :</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">

@@ -1321,7 +1321,7 @@ Puede configurar el nivel en el que aparece esta alerta en las preferencias.
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>Personalizado</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>Ancho de pantalla:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">
