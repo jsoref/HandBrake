@@ -258,7 +258,7 @@ msgid "_View"
 msgstr "视图(_V)"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "初学者使用 HandBrake (_D)"
 
 #: ../src/ghb.m4.h:75

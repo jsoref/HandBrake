@@ -223,7 +223,7 @@ msgid "_View"
 msgstr "Widok"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr ""
 
 #: ../src/ghb.m4.h:75

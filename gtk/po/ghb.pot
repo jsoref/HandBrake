@@ -405,7 +405,7 @@ msgid "_View"
 msgstr ""
 
 #: src/ghb3.ui:2077
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr ""
 
 #: src/ghb3.ui:2086

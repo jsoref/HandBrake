@@ -229,7 +229,7 @@ msgid "_View"
 msgstr "_Visning"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "HandBrake For _Idioter"
 
 #: ../src/ghb.m4.h:75

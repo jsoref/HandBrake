@@ -265,7 +265,7 @@ msgid "_View"
 msgstr "Ex_ibir"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "HandBrake para _Noobs"
 
 #: ../src/ghb.m4.h:75

@@ -266,7 +266,7 @@ msgid "_View"
 msgstr "보기(_V)"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "더미에 대한 HandBrake(_D)"
 
 #: ../src/ghb.m4.h:75

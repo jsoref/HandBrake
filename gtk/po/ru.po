@@ -266,7 +266,7 @@ msgid "_View"
 msgstr "_Вид"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "HandBrake для чайников"
 
 #: ../src/ghb.m4.h:75

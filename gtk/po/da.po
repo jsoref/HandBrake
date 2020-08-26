@@ -491,7 +491,7 @@ msgstr ""
 msgid "_View"
 msgstr "_Vis"
 
-msgid "HandBrake For _Dumbies"
+msgid "HandBrake For _Dummies"
 msgstr "HandBrake kort forklaret"
 
 msgid "_Show Presets"

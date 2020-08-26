@@ -263,8 +263,8 @@ msgid "_View"
 msgstr "_Ver"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
-msgstr "HandBrake para los _Dumbies"
+msgid "HandBrake For _Dummies"
+msgstr "HandBrake para los _Dummies"
 
 #: ../src/ghb.m4.h:75
 msgid "Presets _List"

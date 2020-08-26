@@ -244,8 +244,8 @@ msgid "_View"
 msgstr "_มุมมอง"
 
 #: ../src/ghb.m4.h:74
-msgid "HandBrake For _Dumbies"
-msgstr "HandBrake สำหรับ _Dumbies"
+msgid "HandBrake For _Dummies"
+msgstr "HandBrake สำหรับ _Dummies"
 
 #: ../src/ghb.m4.h:75
 msgid "Presets _List"
