@@ -465,7 +465,7 @@ msgid "_Source"
 msgstr "K_ilde"
 
 msgid "Single _Title"
-msgstr "_Enkel titel"
+msgstr "_Enkel title"
 
 msgid "_Destination"
 msgstr "_Destination"

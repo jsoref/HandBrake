@@ -20,7 +20,7 @@
 "h0O-zg-OF9.title" = "Kapitel exportieren …";
 
 /* Class = "NSTableView"; ibExternalAccessibilityDescription = "Chapter titles"; ObjectID = "InF-gR-Lia"; */
-"InF-gR-Lia.ibExternalAccessibilityDescription" = "Kapiteltitel";
+"InF-gR-Lia.ibExternalAccessibilityDescription" = "Kapiteltitle";
 
 /* Class = "NSButtonCell"; title = "Create chapter markers"; ObjectID = "lJL-wX-DVP"; */
 "lJL-wX-DVP.title" = "Kapitelmarker erstellen";

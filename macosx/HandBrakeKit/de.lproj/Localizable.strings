@@ -21,13 +21,13 @@
 ", %d audio tracks" = ", %d Tonspuren";
 
 /* Title short description -> subtitles format */
-", %d subtitles tracks" = ", %d Untertitelspuren";
+", %d subtitles tracks" = ", %d Untertitlespuren";
 
 /* Title short description -> audio format */
 ", 1 audio track" = ", 1 Tonspur";
 
 /* Title short description -> subtitles format */
-", 1 subtitles track" = ", 1 Untertitelspur";
+", 1 subtitles track" = ", 1 Untertitlespur";
 
 /* Format description */
 ", Align A/V Start" = ", A/V synchron";
@@ -51,7 +51,7 @@
 ", Web Optimized" = ", Web-optimiert";
 
 /* HBStateFormatter -> work pass type format */
-"(subtitle scan)" = "(Untertitelüberprüfung)";
+"(subtitle scan)" = "(Untertitleüberprüfung)";
 
 /* Title short description -> video format */
 "%.6g FPS" = "%.6g BpS";
@@ -78,13 +78,13 @@
 "+ %lu additional audio tracks" = "+ %lu zusätzliche Tonspuren";
 
 /* HBJob -> subtitles short description */
-"+ %lu additional subtitles tracks" = "+ %lu zusätzliche Untertitelspuren";
+"+ %lu additional subtitles tracks" = "+ %lu zusätzliche Untertitlespuren";
 
 /* HBJob -> audio short description */
 "+ 1 additional audio track" = "+ 1 zusätzliche Tonspur";
 
 /* HBJob -> subtitles short description */
-"+ 1 additional subtitles track" = "+ 1 zusätzliche Untertitelspur";
+"+ 1 additional subtitles track" = "+ 1 zusätzliche Untertitlespur";
 
 /* Title description */
 "1 Foreign Language Search Pass - " = "1 Fremdsprachensuche-Durchgang – ";
@@ -378,7 +378,7 @@
 "Stereo" = "Stereo";
 
 /* Subtitles description */
-"Subtitles:" = "Untertitel:";
+"Subtitles:" = "Untertitle:";
 
 /* HBJob -> invalid comb detect custom settings error recovery suggestion */
 "Syntax: mode=m:spatial-metric=s:motion-thresh=m:spatial-thresh=s:filter-mode=f:block-thresh=b:block-width=b:block-height=b:disable=d\n\nDefault: mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16" = "Syntax: mode=m:spatial-metric=s:motion-thresh=m:spatial-thresh=s:filter-mode=f:block-thresh=b:block-width=b:block-height=b:disable=d\n\nStandardeinstellungen: mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16";

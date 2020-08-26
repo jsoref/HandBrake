@@ -406,7 +406,7 @@
 "Stop This Encode and Remove It?" = "Die Encodierung stoppen und entfernen?";
 
 /* Player HUD -> subtitles menu */
-"Subtitles" = "Untertitel";
+"Subtitles" = "Untertitle";
 
 /* Queue Done Alert -> shut down message */
 "The computer will shut down after encoding is done." = "Der Computer wird nach Beendigung der Encodierung heruntergefahren.";

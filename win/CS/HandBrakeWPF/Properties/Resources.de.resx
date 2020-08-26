@@ -168,7 +168,7 @@ Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</value>
     <value>WARNUNG: Die automatische Dateibenennung ist nicht aktiviert. Bitte diese Funktion aktivieren.</value>
   </data>
   <data name="QueueSelection_AutoTrackSelectionWarning" xml:space="preserve">
-    <value>WARNUNG: Die automatische Auswahl der Tonspur und der Untertitelspur ist nicht eingestellt. Die Standardauswahl der Spuren kann in den Einstellungen vorgenommen werden.</value>
+    <value>WARNUNG: Die automatische Auswahl der Tonspur und der Untertitlespur ist nicht eingestellt. Die Standardauswahl der Spuren kann in den Einstellungen vorgenommen werden.</value>
   </data>
   <data name="Presets_ResetComplete" xml:space="preserve">
     <value>Die installierten Voreinstellungen wurden zurückgesetzt.</value>
@@ -189,7 +189,7 @@ Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</value>
     <value>Fehler</value>
   </data>
   <data name="Main_AutoAdd_AudioAndSubWarning" xml:space="preserve">
-    <value>Warnung: Wenn jedem Objekt, das in die Warteschlange aufgenommen werden soll, Untertitel hinzugefügt werden sollen, dann sollte vorher geprüft werden, dass die Standardeinstellungen für Untertitel im Untertitel-Tab richtig eingestellt sind.
+    <value>Warnung: Wenn jedem Objekt, das in die Warteschlange aufgenommen werden soll, Untertitle hinzugefügt werden sollen, dann sollte vorher geprüft werden, dass die Standardeinstellungen für Untertitle im Untertitle-Tab richtig eingestellt sind.
 
 Trotzdem fortfahren?</value>
   </data>
@@ -368,14 +368,14 @@ Erste Spur – Die erste Spur wird eingebrannt.
 Fremdsprachenton bevorzugt, sonst Erste – Wenn die Fremdsprachenspur existiert, wird sie eingebrannt, sonst wird die erste Spur ausgewählt.</value>
   </data>
   <data name="Subtitles_WebmSubtitleIncompatibilityHeader" xml:space="preserve">
-    <value>WebM-Untertitel-Kompatibilität</value>
+    <value>WebM-Untertitle-Kompatibilität</value>
   </data>
   <data name="Subtitles_WebmSubtitleIncompatibilityError" xml:space="preserve">
-    <value>WebM in HandBrake unterstützt nur eingebrannte Untertitel.
+    <value>WebM in HandBrake unterstützt nur eingebrannte Untertitle.
 
-Die Untertitelauswahl sollte geändert werden.
+Die Untertitleauswahl sollte geändert werden.
 
-Beim Fortfahren gehen nicht-eingebrannte Untertitel verloren.</value>
+Beim Fortfahren gehen nicht-eingebrannte Untertitle verloren.</value>
   </data>
   <data name="Main_ScanNoTitlesFound" xml:space="preserve">
     <value>Keine gültige Quelle oder Titel gefunden</value>
@@ -551,10 +551,10 @@ Soll HandBrake wirklich beendet werden?</value>
     <value>HandBrake encodiert bereits eine Datei! Es kann nur eine Datei auf einmal encodiert werden.</value>
   </data>
   <data name="SubtitlesViewModel_SubDefaults" xml:space="preserve">
-    <value>Untertitelstandard</value>
+    <value>Untertitlestandard</value>
   </data>
   <data name="SubtitlesViewModel_SubTracks" xml:space="preserve">
-    <value>Untertitelspuren</value>
+    <value>Untertitlespuren</value>
   </data>
   <data name="SubtitlesViewModel_SwitchToTracks" xml:space="preserve">
     <value>Zu den Spuren zurückkehren</value>
@@ -671,7 +671,7 @@ Die Voreinstellungsdatei wird archiviert und eine neue erstellt. Die eigenen Vor
     <value>Bitte überprüfen, dass das Zielverzeichnis gültig ist.</value>
   </data>
   <data name="MainViewModel_EncodeStatusChanged_SubScan_StatusLabel" xml:space="preserve">
-    <value>Durchgang {0} von {1} wird verarbeitet, (Untertitelprüfung) {2:00.00} %, verbleibende Prüfungszeit: {3}, vergangen: {4}</value>
+    <value>Durchgang {0} von {1} wird verarbeitet, (Untertitleprüfung) {2:00.00} %, verbleibende Prüfungszeit: {3}, vergangen: {4}</value>
   </data>
   <data name="NoAdditionalInformation" xml:space="preserve">
     <value>Keine zusätzlichen Informationen</value>
@@ -1099,13 +1099,13 @@ Soll sie überschrieben werden?</value>
     <value>Soll das Encodieren wirklich gestoppt werden?</value>
   </data>
   <data name="MainView_SubtitleBeforeScanError" xml:space="preserve">
-    <value>Bitte vor dem Import einer Untertiteldatei zuerst eine Quelle zum Encodieren wählen.</value>
+    <value>Bitte vor dem Import einer Untertitledatei zuerst eine Quelle zum Encodieren wählen.</value>
   </data>
   <data name="MainView_SubtitlesTab" xml:space="preserve">
-    <value>Untertitel</value>
+    <value>Untertitle</value>
   </data>
   <data name="MainView_SubtitleTracksCount" xml:space="preserve">
-    <value>Untertitelspuren</value>
+    <value>Untertitlespuren</value>
   </data>
   <data name="MainView_SummaryTab" xml:space="preserve">
     <value>Übersicht</value>
@@ -1489,7 +1489,7 @@ Soll sie überschrieben werden?</value>
     <value>Die Statistik ist verfügbar, sobald das Encodieren abgeschlossen ist.</value>
   </data>
   <data name="QueueView_Subtitles" xml:space="preserve">
-    <value>Untertitel:</value>
+    <value>Untertitle:</value>
   </data>
   <data name="QueueView_Summary" xml:space="preserve">
     <value>Übersicht</value>
@@ -1582,7 +1582,7 @@ Soll sie überschrieben werden?</value>
     <value>Videoabspieler des Systems verwenden</value>
   </data>
   <data name="SubtitlesView_AddCC" xml:space="preserve">
-    <value>Wenn verfügbar, CC-Untertitel hinzufügen</value>
+    <value>Wenn verfügbar, CC-Untertitle hinzufügen</value>
   </data>
   <data name="SubtitlesView_AddForeignAudioSearch" xml:space="preserve">
     <value>Fremdsprachensuche hinzufügen</value>
@@ -1591,22 +1591,22 @@ Soll sie überschrieben werden?</value>
     <value>Einbrennverhalten:</value>
   </data>
   <data name="SubtitlesView_ImportSubtitle" xml:space="preserve">
-    <value>Untertitel importieren</value>
+    <value>Untertitle importieren</value>
   </data>
   <data name="SubtitlesView_TrackSelectionBehaviour" xml:space="preserve">
     <value>Spurverhalten:</value>
   </data>
   <data name="SubtitleView_AddAllCC" xml:space="preserve">
-    <value>Alle restlichen CC-Untertitel hinzufügen</value>
+    <value>Alle restlichen CC-Untertitle hinzufügen</value>
   </data>
   <data name="SubtitleView_SubtitleDefaultsDescription" xml:space="preserve">
-    <value>Konfigurieren, wie die Untertitelspuren automatisch ausgewählt und konfiguriert werden, wenn ein neuer Titel oder eine Videoquelle ausgewählt wird.</value>
+    <value>Konfigurieren, wie die Untertitlespuren automatisch ausgewählt und konfiguriert werden, wenn ein neuer Titel oder eine Videoquelle ausgewählt wird.</value>
   </data>
   <data name="SummaryView_AdditionalAudioTracks" xml:space="preserve">
     <value>Zusätzliche Tonspuren</value>
   </data>
   <data name="SummaryView_AdditionalSubtitleTracks" xml:space="preserve">
-    <value>Zusätzliche Untertitelspuren</value>
+    <value>Zusätzliche Untertitlespuren</value>
   </data>
   <data name="SummaryView_Burned" xml:space="preserve">
     <value>Eingebrannt</value>
@@ -1639,7 +1639,7 @@ Soll sie überschrieben werden?</value>
     <value>Keine Quelle</value>
   </data>
   <data name="SummaryView_NoSubtitleTracks" xml:space="preserve">
-    <value>Keine Untertitelspuren</value>
+    <value>Keine Untertitlespuren</value>
   </data>
   <data name="SummaryView_NoTracks" xml:space="preserve">
     <value>Keine Spuren</value>
@@ -1851,7 +1851,7 @@ Soll sie überschrieben werden?</value>
 Dies hat keinen Einfluss auf die Software-Encoder.</value>
   </data>
   <data name="Main_PleaseFixSubtitleSettings" xml:space="preserve">
-    <value>Bitte die Untertiteleinstellungen vor dem Fortfahren korrigieren.</value>
+    <value>Bitte die Untertitleeinstellungen vor dem Fortfahren korrigieren.</value>
   </data>
   <data name="Generic_Apply" xml:space="preserve">
     <value>Anwenden</value>
@@ -1997,7 +1997,7 @@ Falls unterstützt, wird jede benutzerdefinierte Voreinstellung übernommen. </v
     <value>Automatische Tonauswahl konfigurieren</value>
   </data>
   <data name="SubtitlesDefaultsView_PaneTitle" xml:space="preserve">
-    <value>Automatische Untertitelauswahl konfigurieren</value>
+    <value>Automatische Untertitleauswahl konfigurieren</value>
   </data>
   <data name="Options_SystemOptions" xml:space="preserve">
     <value>System</value>
@@ -2178,7 +2178,7 @@ Falls unterstützt, wird jede benutzerdefinierte Voreinstellung übernommen. </v
     <value>Alle laufenden Aufgaben bei geringer Batteriekapazität anhalten.</value>
   </data>
   <data name="SubtitleView_AddRemainingCC" xml:space="preserve">
-    <value>Alle restlichen CC-Untertitel hinzufügen</value>
+    <value>Alle restlichen CC-Untertitle hinzufügen</value>
   </data>
   <data name="QueueService_DuplicatesQuestion" xml:space="preserve">
     <value>In der Warteschlangendatei, die Sie importieren möchten, wurden doppelte Aufgaben entdeckt. Möchten Sie die vorhandenen Datensätze überschreiben? 

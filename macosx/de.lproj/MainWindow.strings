@@ -128,7 +128,7 @@
 "5185.title" = "Winkel:";
 
 /* Class = "NSTabViewItem"; label = "Subtitles"; ObjectID = "5194"; */
-"5194.label" = "Untertitel";
+"5194.label" = "Untertitle";
 
 /* Class = "NSTextField"; ibExternalAccessibilityDescription = "Start time in seconds"; ObjectID = "5491"; */
 "5491.ibExternalAccessibilityDescription" = "Startzeit in Sekunden";

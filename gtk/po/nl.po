@@ -27,9 +27,9 @@ msgid ""
 "\n"
 "The subtitle will be part of the video and can not be disabled."
 msgstr ""
-"Render de ondertitel over de video.\n"
+"Render de ondertitle over de video.\n"
 "\n"
-"De ondertitel wordt deel van de video en kan niet worden uitgeschakeld."
+"De ondertitle wordt deel van de video en kan niet worden uitgeschakeld."
 
 #: ../src/ghb.m4.h:4
 msgid "<b>Burned In</b>"
@@ -45,10 +45,10 @@ msgid ""
 "This is useful for creating a \"forced\" track\n"
 "in your output."
 msgstr ""
-"Stel de standaard ondertitel-track in.\n"
+"Stel de standaard ondertitle-track in.\n"
 "\n"
 "De meeste spelers zullen automatisch deze\n"
-"ondertitel-track tonen wanneer de video gespeeld wordt.\n"
+"ondertitle-track tonen wanneer de video gespeeld wordt.\n"
 "\n"
 "Dit is nuttig om een \"geforceerde\" track\n"
 "in uw output te creëren."
@@ -66,11 +66,11 @@ msgid ""
 "subtitles during scenes where someone is speaking\n"
 "a foreign language."
 msgstr ""
-"Gebruik enkel ondertitels die gemarkeerd zijn\n"
-"als geforceerd in de ondertitel-track van de bron.\n"
+"Gebruik enkel ondertitles die gemarkeerd zijn\n"
+"als geforceerd in de ondertitle-track van de bron.\n"
 "\n"
-"\"Geforceerde\" ondertitels worden doorgaans gebruikt\n"
-"om ondertitels te tonen tijdens scènes waarin een\n"
+"\"Geforceerde\" ondertitles worden doorgaans gebruikt\n"
+"om ondertitles te tonen tijdens scènes waarin een\n"
 "vreemde taal gesproken wordt."
 
 #: ../src/ghb.m4.h:19
@@ -87,7 +87,7 @@ msgid ""
 "This setting allows you to synchronize the files."
 msgstr ""
 "Voeg een offset (in milliseconden) toe aan het\n"
-"begin van de SRT ondertitel-track (of trek ervan af).\n"
+"begin van de SRT ondertitle-track (of trek ervan af).\n"
 "\n"
 "Vaak komt het begin van een extern SRT-bestand\n"
 "niet overeen met het begin van de video.\n"
@@ -111,15 +111,15 @@ msgid ""
 "language scene.  This option is best used in\n"
 "conjunction with the \"Forced\" option."
 msgstr ""
-"De ondertitel-track van de bron\n"
+"De ondertitle-track van de bron\n"
 "\n"
-"U kunt elk van de ondertitels kiezen\n"
+"U kunt elk van de ondertitles kiezen\n"
 "die herkend worden in het bronbestand.\n"
 "\n"
 "Daarenboven, er is een speciale track optie\n"
 "\"Vreemde taal scan\". Deze optie voegt een\n"
 "extra passage van de encodering toe die zoekt\n"
-"naar ondertitels die kunnen overeenstemmen\n"
+"naar ondertitles die kunnen overeenstemmen\n"
 "met een scène in een vreemde taal. Deze optie\n"
 "wordt best gebruikt in combinatie met de\n"
 "\"geforceerd\" optie."
@@ -382,13 +382,13 @@ msgid ""
 "By default the longest title is chosen.\n"
 "This is often the feature title of a DVD."
 msgstr ""
-"Stel de te encoderen titel in.\n"
-"Standaard wordt de langste titel gekozen.\n"
-"Dit is vaak de getoonde titel van een DVD."
+"Stel de te encoderen title in.\n"
+"Standaard wordt de langste title gekozen.\n"
+"Dit is vaak de getoonde title van een DVD."
 
 #: ../src/ghb.m4.h:104
 msgid "<small>No Titles</small>"
-msgstr "<small>Geen titels</small>"
+msgstr "<small>Geen titles</small>"
 
 #: ../src/ghb.m4.h:105
 msgid "<b>Angle:</b>"
@@ -405,7 +405,7 @@ msgstr "<b>Bereik:</b>"
 #: ../src/ghb.m4.h:108
 msgid "Range of title to encode. Can be chapters, seconds, or frames."
 msgstr ""
-"Bereik van de te encoderen titel. Kunnen hoofdstukken, seconden of frames "
+"Bereik van de te encoderen title. Kunnen hoofdstukken, seconden of frames "
 "zijn."
 
 #: ../src/ghb.m4.h:109
@@ -1406,11 +1406,11 @@ msgstr "Toon ondertitiel-track-lijst van uitvoer"
 
 #: ../src/ghb.m4.h:386
 msgid "Add new subtitle settings to the list"
-msgstr "Voeg nieuwe ondertitel-instellingen toe aan de lijst"
+msgstr "Voeg nieuwe ondertitle-instellingen toe aan de lijst"
 
 #: ../src/ghb.m4.h:387
 msgid "Add all subtitle tracks to the list"
-msgstr "Voeg alle ondertitel-tracks toe aan de lijst"
+msgstr "Voeg alle ondertitle-tracks toe aan de lijst"
 
 #: ../src/ghb.m4.h:388 ../src/queuehandler.c:111 ../src/queuehandler.c:164
 #: ../src/subtitlehandler.c:382
@@ -1424,16 +1424,16 @@ msgid ""
 "        segments of the audio that are in a foreign language."
 msgstr ""
 "Voeg een extra passage aan de encodering toe om te\n"
-"zoeken naar kandidaat-ondertitels die tekst voorzien voor\n"
+"zoeken naar kandidaat-ondertitles die tekst voorzien voor\n"
 "audiosegmenten in een vreemde taal."
 
 #: ../src/ghb.m4.h:392
 msgid "Reload all subtitle settings from defaults"
-msgstr "Stel alle ondertitel-instellingen in op hun standaard."
+msgstr "Stel alle ondertitle-instellingen in op hun standaard."
 
 #: ../src/ghb.m4.h:393
 msgid "Choose which subtitle tracks of the source media are used."
-msgstr "Kies welke ondertitel-tracks van de bronmedia gebruikt worden."
+msgstr "Kies welke ondertitle-tracks van de bronmedia gebruikt worden."
 
 #: ../src/ghb.m4.h:394
 msgid ""
@@ -1443,11 +1443,11 @@ msgid ""
 "The first language in this list is your \"preferred\" language and will be used\n"
 "for determining subtitle selection settings when there is foreign audio."
 msgstr ""
-"Maak en lijst van talen waarvoor ondertitels moeten geselecteerd worden.\n"
+"Maak en lijst van talen waarvoor ondertitles moeten geselecteerd worden.\n"
 "Tracks die overeenkomen met deze talen worden geselecteerd door het gekozen selectiegedrag.\n"
 "\n"
 "De eerste taal in deze lijst is de \"voorkeur\"-taal en wordt gebruikt om\n"
-"de selectie van ondertitels te bepalen als er vreemde talen gesproken worden."
+"de selectie van ondertitles te bepalen als er vreemde talen gesproken worden."
 
 #: ../src/ghb.m4.h:399
 msgid "Preferred Language: None"
@@ -1466,14 +1466,14 @@ msgid ""
 msgstr ""
 "Voeg een \"vreemde talen\"-scan toe wanneer de standaard-audio-track\n"
 "in de voorkeurstaal is. Deze passage vindt korte sequenties van audio in\n"
-"een vreemde taal en voorziet er ondertitels voor.\n"
+"een vreemde taal en voorziet er ondertitles voor.\n"
 "\n"
 "Voor deze optie moet er een taal in de lijst met geselcteerde talen zijn."
 
 #: ../src/ghb.m4.h:405
 msgid "Add subtitle track if default audio is foreign"
 msgstr ""
-"Voeg ondertitel-track toe als de standaard-audio in een vreemde taal is."
+"Voeg ondertitle-track toe als de standaard-audio in een vreemde taal is."
 
 #: ../src/ghb.m4.h:406
 msgid ""
@@ -1481,21 +1481,21 @@ msgid ""
 "\n"
 "        This option requires a language to be set in the Selected Languages list."
 msgstr ""
-"Wanneer de standaard-audio-track niet in de voorkeurstaal is, voeg een ondertitel-track toe.\n"
+"Wanneer de standaard-audio-track niet in de voorkeurstaal is, voeg een ondertitle-track toe.\n"
 "\n"
 "Deze optie vereist dat er een taal in de lijst met geselcteerde talen is."
 
 #: ../src/ghb.m4.h:409
 msgid "Add Closed Captions when available"
-msgstr "Voeg bijgesloten ondertitels toe indien voorhanden."
+msgstr "Voeg bijgesloten ondertitles toe indien voorhanden."
 
 #: ../src/ghb.m4.h:410
 msgid ""
 "Closed captions are text subtitles that can be added to any container as a "
 "soft subtitle track"
 msgstr ""
-"Bijgesloten ondertitels zijn ondertitels die aan elke container kunnen "
-"toegevoegd worden als een \"soft\" ondertitel-track"
+"Bijgesloten ondertitles zijn ondertitles die aan elke container kunnen "
+"toegevoegd worden als een \"soft\" ondertitle-track"
 
 #: ../src/ghb.m4.h:411
 msgid "Burn-In Behavior*:"
@@ -1508,12 +1508,12 @@ msgid ""
 "        Burned-In subtitles are part of the video and can not be disabled during playback.\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Stel het gedrag van ondertitel-\"Burn-In\" in.\n"
+"Stel het gedrag van ondertitle-\"Burn-In\" in.\n"
 "\n"
-"Ondertitels met \"Burn-In\" zijn een deel van de video\n"
+"Ondertitles met \"Burn-In\" zijn een deel van de video\n"
 "en kunnen niet uitgeschakeld worden tijdens het afspelen.\n"
-"Slechts één ondertitel-track kan gebruikt worden!\n"
-"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitel."
+"Slechts één ondertitle-track kan gebruikt worden!\n"
+"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitle."
 
 #: ../src/ghb.m4.h:416
 msgid "Burn-In for deficient players*:"
@@ -1521,7 +1521,7 @@ msgstr "Burn-In voor gebrekkige spelers*:"
 
 #: ../src/ghb.m4.h:417
 msgid "DVD Subtitles"
-msgstr "DVD-ondertitels"
+msgstr "DVD-ondertitles"
 
 #: ../src/ghb.m4.h:418
 msgid ""
@@ -1530,15 +1530,15 @@ msgid ""
 "\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Brand de eerste geselecteerde DVD-ondertitel-track. Alle andere DVD-ondertitel-tracks worden verworpen.\n"
-"Gebruik deze optie als de speler of het afspeelapparaat geen DVD-ondertitels ondersteunt.\n"
+"Brand de eerste geselecteerde DVD-ondertitle-track. Alle andere DVD-ondertitle-tracks worden verworpen.\n"
+"Gebruik deze optie als de speler of het afspeelapparaat geen DVD-ondertitles ondersteunt.\n"
 "\n"
-"Slechts één ondertitel-track kan gebruikt worden!\n"
-"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitel."
+"Slechts één ondertitle-track kan gebruikt worden!\n"
+"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitle."
 
 #: ../src/ghb.m4.h:422
 msgid "Blu-ray Subtitles"
-msgstr "Blu-ray-ondertitels"
+msgstr "Blu-ray-ondertitles"
 
 #: ../src/ghb.m4.h:423
 msgid ""
@@ -1547,18 +1547,18 @@ msgid ""
 "\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Brand de eerste geselecteerde Blu-ray-ondertitel-track. Alle andere Blu-ray-ondertitel-tracks worden verworpen.\n"
-"Gebruik deze optie als de speler of het afspeelapparaat geen Blu-ray-ondertitels ondersteunt.\n"
+"Brand de eerste geselecteerde Blu-ray-ondertitle-track. Alle andere Blu-ray-ondertitle-tracks worden verworpen.\n"
+"Gebruik deze optie als de speler of het afspeelapparaat geen Blu-ray-ondertitles ondersteunt.\n"
 "\n"
-"Slechts één ondertitel-track kan gebruikt worden!\n"
-"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitel."
+"Slechts één ondertitle-track kan gebruikt worden!\n"
+"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitle."
 
 #: ../src/ghb.m4.h:427
 msgid ""
 "<small>* Only one of the above subtitle burn options will be applied, "
 "starting with the top.</small>"
 msgstr ""
-"<small>* Slechts één van bovenstaande ondertitel-opties wordt toegepast, "
+"<small>* Slechts één van bovenstaande ondertitle-opties wordt toegepast, "
 "beginnend met de bovenste.</small>"
 
 #: ../src/ghb.m4.h:428
@@ -1566,12 +1566,12 @@ msgid ""
 "Only one subtitle track can be burned! Since conflicts can occur, the first "
 "chosen wins."
 msgstr ""
-"Slechts één ondertitel-track kan gebruikt worden!\n"
-"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitel."
+"Slechts één ondertitle-track kan gebruikt worden!\n"
+"Aangezien conflicten kunnen optreden, wint de eerstgekozen ondertitle."
 
 #: ../src/ghb.m4.h:429
 msgid "Subtitles"
-msgstr "Ondertitels"
+msgstr "Ondertitles"
 
 #: ../src/ghb.m4.h:430
 msgid "<small>Reference Frames:</small>"

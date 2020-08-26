@@ -381,9 +381,9 @@ msgid ""
 "By default the longest title is chosen.\n"
 "This is often the feature title of a DVD."
 msgstr ""
-"Stel die titel vir enkodering.\n"
-"Die langste titel word by verstek gekies.\n"
-"Dit is gewoonlik die hooftitel van ’n DVD."
+"Stel die title vir enkodering.\n"
+"Die langste title word by verstek gekies.\n"
+"Dit is gewoonlik die hooftitle van ’n DVD."
 
 #: ../src/ghb.m4.h:104
 msgid "<small>No Titles</small>"
@@ -404,7 +404,7 @@ msgstr "<b>Omvang:</b>"
 #: ../src/ghb.m4.h:108
 msgid "Range of title to encode. Can be chapters, seconds, or frames."
 msgstr ""
-"Omvang van titel vir enkodering. Kan hoofstukke, sekondes of rame wees."
+"Omvang van title vir enkodering. Kan hoofstukke, sekondes of rame wees."
 
 #: ../src/ghb.m4.h:109
 msgid "Set the first chapter to encode."
@@ -1916,7 +1916,7 @@ msgstr "Kies Alles"
 
 #: ../src/ghb.m4.h:615
 msgid "Mark all titles for adding to the queue"
-msgstr "Merk alle titels om tot die wagry toe te voeg"
+msgstr "Merk alle titles om tot die wagry toe te voeg"
 
 #: ../src/ghb.m4.h:616
 msgid "Clear All"
@@ -2607,7 +2607,7 @@ msgstr "Staak Skandering"
 #: ../src/callbacks.c:2667 ../src/hb-backend.c:2103 ../src/hb-backend.c:2223
 #: ../src/hb-backend.c:2235
 msgid "No Title Found"
-msgstr "Geen titel gevind"
+msgstr "Geen title gevind"
 
 #: ../src/callbacks.c:2668
 msgid "New Video"
@@ -2689,12 +2689,12 @@ msgstr ""
 #: ../src/callbacks.c:4053
 #, c-format
 msgid "Scanning title %d of %d..."
-msgstr "Skandeer titel %d van %d…"
+msgstr "Skandeer title %d van %d…"
 
 #: ../src/callbacks.c:4057
 #, c-format
 msgid "Scanning title %d of %d preview %d..."
-msgstr "Skandeer titel %d van %d voorskou %d…"
+msgstr "Skandeer title %d van %d voorskou %d…"
 
 #: ../src/callbacks.c:4168
 msgid "Paused"
@@ -3045,7 +3045,7 @@ msgstr "%3d - %02dh%02dm%02ds"
 
 #: ../src/hb-backend.c:2307
 msgid "No Titles"
-msgstr "Geen titels"
+msgstr "Geen titles"
 
 #. No audio. set some default
 #: ../src/hb-backend.c:2588
@@ -3157,7 +3157,7 @@ msgstr "Gaan voort"
 #. No valid title, stop right there
 #: ../src/hb-backend.c:4404 ../src/hb-backend.c:4478
 msgid "No title found.\n"
-msgstr "No titel gevind.\n"
+msgstr "No title gevind.\n"
 
 #: ../src/hb-backend.c:4425
 #, c-format
@@ -3576,7 +3576,7 @@ msgstr ""
 
 #: ../src/queuehandler.c:1798
 msgid "Select this title for adding to the queue.\n"
-msgstr "Kies hierdie titel vir toevoeging tot die wagry.\n"
+msgstr "Kies hierdie title vir toevoeging tot die wagry.\n"
 
 #. Title label
 #: ../src/queuehandler.c:1806
@@ -3590,7 +3590,7 @@ msgid ""
 "the output file name.\n"
 msgstr ""
 "Daar is ’n ander lêer met dieselfde bestemminglêernaam.\n"
-"Hierdie titel sal nie tot die wagry toegevoeg word nie, tensy\n"
+"Hierdie title sal nie tot die wagry toegevoeg word nie, tensy\n"
 "u die afvoerlêernaam verander.\n"
 
 #: ../src/queuehandler.c:2343

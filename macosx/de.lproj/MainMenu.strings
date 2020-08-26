@@ -212,7 +212,7 @@
 "CN3-Rh-gVf.title" = "Löschen";
 
 /* Class = "NSMenuItem"; title = "Subtitles"; ObjectID = "Csx-2S-iUe"; */
-"Csx-2S-iUe.title" = "Untertitel";
+"Csx-2S-iUe.title" = "Untertitle";
 
 /* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "fNa-z2-K1i"; */
 "fNa-z2-K1i.title" = "Benutzte Dokumente";

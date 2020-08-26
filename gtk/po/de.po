@@ -28,8 +28,8 @@ msgid ""
 "\n"
 "The subtitle will be part of the video and can not be disabled."
 msgstr ""
-"Den Untertitel über dem Video rendern.\n"
-"Der Untertitel wird Teil des Videos und kann nicht deaktiviert werden."
+"Den Untertitle über dem Video rendern.\n"
+"Der Untertitle wird Teil des Videos und kann nicht deaktiviert werden."
 
 #: ../src/ghb.m4.h:4
 msgid "<b>Burned In</b>"
@@ -45,8 +45,8 @@ msgid ""
 "This is useful for creating a \"forced\" track\n"
 "in your output."
 msgstr ""
-"Die Standard-Untertitelspur der Ausgabe festlegen.\n"
-"Die meisten Abspieler werden diese Untertitelspur\n"
+"Die Standard-Untertitlespur der Ausgabe festlegen.\n"
+"Die meisten Abspieler werden diese Untertitlespur\n"
 "anzeigen wenn das Video abgespielt wird.\n"
 "Dies ist nützlich, um eine „erzwungene“ Spur in der Ausgabe\n"
 "zu erzeugen."
@@ -64,10 +64,10 @@ msgid ""
 "subtitles during scenes where someone is speaking\n"
 "a foreign language."
 msgstr ""
-"Verwende nur Untertitel, welche als \n"
+"Verwende nur Untertitle, welche als \n"
 "„Erzwungen“ in der Quellspur markiert sind.\n"
 "\n"
-"„Erzwungene“ Untertitel werden üblicherweise\n"
+"„Erzwungene“ Untertitle werden üblicherweise\n"
 "in Szenen verwendet, in denen eine\n"
 "fremde Sprache gesprochen wird."
 
@@ -85,7 +85,7 @@ msgid ""
 "This setting allows you to synchronize the files."
 msgstr ""
 "Füge (oder entferne) einen Versatz (in Millisekunden)\n"
-"zum Start der SRT-Untertitelspur.\n"
+"zum Start der SRT-Untertitlespur.\n"
 "\n"
 "Oftmals sind die externen SRT-Dateien\n"
 "nicht mit dem Video synchron.\n"
@@ -109,9 +109,9 @@ msgid ""
 "language scene.  This option is best used in\n"
 "conjunction with the \"Forced\" option."
 msgstr ""
-"Die Untertitelspur der Quelle\n"
+"Die Untertitlespur der Quelle\n"
 "Es kann eine der erkannten\n"
-"Untertitel aus den Quelldateien auswählt werden.\n"
+"Untertitle aus den Quelldateien auswählt werden.\n"
 "Zusätzlich gibt es eine spezielle Option\n"
 "„Fremdsprachentonsuche“. Diese fügt der \n"
 "Encodierung einen zusätzlichen Durchgang hinzu\n"
@@ -1373,15 +1373,15 @@ msgstr "Audio"
 
 #: ../src/ghb.m4.h:385
 msgid "Show Output Subtitle Track List"
-msgstr "Zeige Untertitelspuren der Ausgabe"
+msgstr "Zeige Untertitlespuren der Ausgabe"
 
 #: ../src/ghb.m4.h:386
 msgid "Add new subtitle settings to the list"
-msgstr "Füge neue Untertitel-Einstellungen der Liste hinzu"
+msgstr "Füge neue Untertitle-Einstellungen der Liste hinzu"
 
 #: ../src/ghb.m4.h:387
 msgid "Add all subtitle tracks to the list"
-msgstr "Füge alle Untertitelspuren der Liste hinzu"
+msgstr "Füge alle Untertitlespuren der Liste hinzu"
 
 #: ../src/ghb.m4.h:388 ../src/queuehandler.c:111 ../src/queuehandler.c:164
 #: ../src/subtitlehandler.c:382
@@ -1394,16 +1394,16 @@ msgid ""
 "        for subtitle candidates that provide subtitles for\n"
 "        segments of the audio that are in a foreign language."
 msgstr ""
-"Füge einen Extra-Durchlauf zur Suche nach Untertiteln,\n"
-"welche Untertitel für Sequenzen in einer Fremdsprache enthält."
+"Füge einen Extra-Durchlauf zur Suche nach Untertitlen,\n"
+"welche Untertitle für Sequenzen in einer Fremdsprache enthält."
 
 #: ../src/ghb.m4.h:392
 msgid "Reload all subtitle settings from defaults"
-msgstr "Lade alle Untertiteleinstellungen von den Standardeinstellungen neu"
+msgstr "Lade alle Untertitleeinstellungen von den Standardeinstellungen neu"
 
 #: ../src/ghb.m4.h:393
 msgid "Choose which subtitle tracks of the source media are used."
-msgstr "Wähle die zu verwendenden Untertitelspuren der Quelldatei aus"
+msgstr "Wähle die zu verwendenden Untertitlespuren der Quelldatei aus"
 
 #: ../src/ghb.m4.h:394
 msgid ""
@@ -1413,11 +1413,11 @@ msgid ""
 "The first language in this list is your \"preferred\" language and will be used\n"
 "for determining subtitle selection settings when there is foreign audio."
 msgstr ""
-"Erstellen Sie eine Liste der Sprachen, für die Sie Untertitel auswählen möchten. \n"
+"Erstellen Sie eine Liste der Sprachen, für die Sie Untertitle auswählen möchten. \n"
 "Spuren, die diesen Sprachen entsprechen, werden mit dem gewählten Auswahlverhalten ausgewählt.\n"
 "\n"
 "Die erste Sprache in dieser Liste ist Ihre „bevorzugte“ Sprache und wird verwendet\n"
-"zum Bestimmen der Einstellungen für die Untertitelauswahl bei Fremdsprachenton."
+"zum Bestimmen der Einstellungen für die Untertitleauswahl bei Fremdsprachenton."
 
 #: ../src/ghb.m4.h:399
 msgid "Preferred Language: None"
@@ -1435,14 +1435,14 @@ msgid ""
 "        This option requires a language to be set in the Selected Languages list."
 msgstr ""
 "Füge „Fremdsprachentonsuche“ ein, wenn die Standardspur die bevorzugte Sprache ist.\n"
-"Diese Suche sucht kurze fremdsprachige Sequenzen und fügt dort einen Untertitel ein.\n"
+"Diese Suche sucht kurze fremdsprachige Sequenzen und fügt dort einen Untertitle ein.\n"
 "\n"
 "Diese Option benötigt eine Sprache, welche in der „gewählte Sprachen“ Liste gesetzt wurde."
 
 #: ../src/ghb.m4.h:405
 msgid "Add subtitle track if default audio is foreign"
 msgstr ""
-"Füge eine Untertitelspur hinzu falls die Standardspur fremdsprachig ist"
+"Füge eine Untertitlespur hinzu falls die Standardspur fremdsprachig ist"
 
 #: ../src/ghb.m4.h:406
 msgid ""
@@ -1450,7 +1450,7 @@ msgid ""
 "\n"
 "        This option requires a language to be set in the Selected Languages list."
 msgstr ""
-"Fügt eine Untertitelspur hinzu, falls die Standardtonspur nicht in der bevorzugten Sprache ist.\n"
+"Fügt eine Untertitlespur hinzu, falls die Standardtonspur nicht in der bevorzugten Sprache ist.\n"
 "\n"
 "Diese Option benötigt eine Sprache welche in der „gewählten Sprachen“ Liste gesetzt wurde."
 
@@ -1463,7 +1463,7 @@ msgid ""
 "Closed captions are text subtitles that can be added to any container as a "
 "soft subtitle track"
 msgstr ""
-"Closed Captions sind Untertitel welche jedem beliebigen Container "
+"Closed Captions sind Untertitle welche jedem beliebigen Container "
 "hinzugefügt werden können."
 
 #: ../src/ghb.m4.h:411
@@ -1477,10 +1477,10 @@ msgid ""
 "        Burned-In subtitles are part of the video and can not be disabled during playback.\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Setzt das Verhalten der eingebrannten Untertitel.\n"
+"Setzt das Verhalten der eingebrannten Untertitle.\n"
 "\n"
-"Eingebrannte Untertitel sind Teil des Videos und können nicht mehr deaktiviert werden.\n"
-"Nur eine Untertitelspur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
+"Eingebrannte Untertitle sind Teil des Videos und können nicht mehr deaktiviert werden.\n"
+"Nur eine Untertitlespur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
 
 #: ../src/ghb.m4.h:416
 msgid "Burn-In for deficient players*:"
@@ -1488,7 +1488,7 @@ msgstr "Einbrennen für fehlerhafte Abspieler*:"
 
 #: ../src/ghb.m4.h:417
 msgid "DVD Subtitles"
-msgstr "DVD-Untertitel"
+msgstr "DVD-Untertitle"
 
 #: ../src/ghb.m4.h:418
 msgid ""
@@ -1497,14 +1497,14 @@ msgid ""
 "\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Brenne den ersten gewählten DVD-Untertitel ein. Alle anderen DVD-Untertitelspuren werden verworfen.\n"
-"Nutze diese Option wenn die Software oder das Gerät keine DVD-Untertitel unterstützt.\n"
+"Brenne den ersten gewählten DVD-Untertitle ein. Alle anderen DVD-Untertitlespuren werden verworfen.\n"
+"Nutze diese Option wenn die Software oder das Gerät keine DVD-Untertitle unterstützt.\n"
 "\n"
-"Nur eine Untertitelspur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
+"Nur eine Untertitlespur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
 
 #: ../src/ghb.m4.h:422
 msgid "Blu-ray Subtitles"
-msgstr "Blu-ray-Untertitel"
+msgstr "Blu-ray-Untertitle"
 
 #: ../src/ghb.m4.h:423
 msgid ""
@@ -1513,17 +1513,17 @@ msgid ""
 "\n"
 "        Only one subtitle track can be burned! Since conflicts can occur, the first chosen wins."
 msgstr ""
-"Brenne den ersten gewählten Blu-ray Untertitel ein. Alle anderen Blu-ray Untertitelspuren werden verworfen.\n"
-"Nutze diese Option wenn deine Software oder Gerät keine Blu-ray Untertitel unterstützt.\n"
+"Brenne den ersten gewählten Blu-ray Untertitle ein. Alle anderen Blu-ray Untertitlespuren werden verworfen.\n"
+"Nutze diese Option wenn deine Software oder Gerät keine Blu-ray Untertitle unterstützt.\n"
 "\n"
-"Nur eine Untertitelspur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
+"Nur eine Untertitlespur kann eingebrannt werden! Wenn Konflikte auftreten, wird nur die Erste verwendet."
 
 #: ../src/ghb.m4.h:427
 msgid ""
 "<small>* Only one of the above subtitle burn options will be applied, "
 "starting with the top.</small>"
 msgstr ""
-"<small>* Nur eine der oben angegebenen Untertiteleinbrennoptionen wird "
+"<small>* Nur eine der oben angegebenen Untertitleeinbrennoptionen wird "
 "angewendet, beginnend mit der ersten.</small>"
 
 #: ../src/ghb.m4.h:428
@@ -1531,12 +1531,12 @@ msgid ""
 "Only one subtitle track can be burned! Since conflicts can occur, the first "
 "chosen wins."
 msgstr ""
-"Nur eine Untertitelspur kann eingebrannt werden! Wenn Konflikte auftreten, "
+"Nur eine Untertitlespur kann eingebrannt werden! Wenn Konflikte auftreten, "
 "wird nur die Erste verwendet."
 
 #: ../src/ghb.m4.h:429
 msgid "Subtitles"
-msgstr "Untertitel"
+msgstr "Untertitle"
 
 #: ../src/ghb.m4.h:430
 msgid "<small>Reference Frames:</small>"
@@ -2409,15 +2409,15 @@ msgstr "Importiere SRT"
 
 #: ../src/ghb.m4.h:692
 msgid "Enable settings to import an SRT subtitle file"
-msgstr "Aktiviere Einstellung zum Import einer SRT Untertiteldatei"
+msgstr "Aktiviere Einstellung zum Import einer SRT Untertitledatei"
 
 #: ../src/ghb.m4.h:693
 msgid "Embedded Subtitle List"
-msgstr "Eingebettete Untertitelliste"
+msgstr "Eingebettete Untertitleliste"
 
 #: ../src/ghb.m4.h:694
 msgid "Enable settings to select embedded subtitles"
-msgstr "Aktiviere Einstellung zum Selektieren von eingebetteten Untertiteln"
+msgstr "Aktiviere Einstellung zum Selektieren von eingebetteten Untertitlen"
 
 #: ../src/ghb.m4.h:695
 msgid "Language"
@@ -2440,8 +2440,8 @@ msgid ""
 "Set the language of this subtitle.\n"
 "This value will be used by players in subtitle menus."
 msgstr ""
-"Setz die Sprache des Untertitels.\n"
-"Dieser Wert wird von Abspielern in Untertitelmenüs verwendet."
+"Setz die Sprache des Untertitles.\n"
+"Dieser Wert wird von Abspielern in Untertitlemenüs verwendet."
 
 #: ../src/ghb.m4.h:701
 msgid ""
@@ -2476,11 +2476,11 @@ msgstr "Spur"
 
 #: ../src/ghb.m4.h:710
 msgid "List of subtitle tracks available from your source."
-msgstr "Liste der verfügbaren Untertitelspuren der Quelldatei."
+msgstr "Liste der verfügbaren Untertitlespuren der Quelldatei."
 
 #: ../src/ghb.m4.h:711
 msgid "Forced Subtitles Only"
-msgstr "Nur erzwungene Untertitel"
+msgstr "Nur erzwungene Untertitle"
 
 #: ../src/ghb.m4.h:712
 msgid "Burn into video"
@@ -2491,8 +2491,8 @@ msgid ""
 "Render the subtitle over the video.\n"
 "The subtitle will be part of the video and can not be disabled."
 msgstr ""
-"Render den Untertitel über dem Video.\n"
-"Der Untertitel wird Teil des Videos und kann nicht deaktiviert werden."
+"Render den Untertitle über dem Video.\n"
+"Der Untertitle wird Teil des Videos und kann nicht deaktiviert werden."
 
 #: ../src/ghb.m4.h:715
 msgid "Set Default Track"
@@ -2675,7 +2675,7 @@ msgstr "Einstellungen der Tonspurenauswahl"
 
 #: ../src/fr.handbrake.ghb.appdata.xml.template.h:12
 msgid "Chapter title editing"
-msgstr "Kapiteltitel-Editierung"
+msgstr "Kapiteltitle-Editierung"
 
 #: ../src/main.c:100
 #, c-format
@@ -2887,7 +2887,7 @@ msgstr "Aufgabe %d von %d, "
 #: ../src/callbacks.c:3911
 #, c-format
 msgid "pass %d (subtitle scan) of %d, "
-msgstr "Durchgang %d (Untertitelüberprüfung) von %d, "
+msgstr "Durchgang %d (Untertitleüberprüfung) von %d, "
 
 #: ../src/callbacks.c:3916
 #, c-format
@@ -2993,7 +2993,7 @@ msgstr "Alle Spuren mit den ausgwählten Sprachen"
 
 #: ../src/hb-backend.c:73
 msgid "Foreign Audio Subtitle Track"
-msgstr "Fremdsprachige Audiountertitelspur"
+msgstr "Fremdsprachige Audiountertitlespur"
 
 #: ../src/hb-backend.c:74
 msgid "First Selected Track"
@@ -3426,10 +3426,10 @@ msgid ""
 "You should change your subtitle selections.\n"
 "If you continue, some subtitles will be lost."
 msgstr ""
-"Nur ein Untertitel kann in das Video gebrannt werden.\n"
+"Nur ein Untertitle kann in das Video gebrannt werden.\n"
 "\n"
-"Du solltest deine Untertitelauswahl ändern.\n"
-"Falls fortgefahren wird, gehen manche Untertitel verloren."
+"Du solltest deine Untertitleauswahl ändern.\n"
+"Falls fortgefahren wird, gehen manche Untertitle verloren."
 
 #: ../src/hb-backend.c:4449
 #, c-format
@@ -3442,7 +3442,7 @@ msgstr ""
 "SRT-Datei existiert nicht oder ist keine reguläre Datei.\n"
 "\n"
 "Es sollte eine gültige Datei ausgewählt werden.\n"
-"Falls fortgefahren wird, wird dieser Untertitel ignoriert."
+"Falls fortgefahren wird, wird dieser Untertitle ignoriert."
 
 #: ../src/hb-backend.c:4510
 #, c-format
@@ -3763,12 +3763,12 @@ msgstr "%d - %s --> Encoder: %s, Abmischung: %s, Abtastrate: %s, %s"
 
 #: ../src/queuehandler.c:733
 msgid "<b>Subtitle:</b> "
-msgstr "<b>Untertitel:</b> "
+msgstr "<b>Untertitle:</b> "
 
 #: ../src/queuehandler.c:737
 #, c-format
 msgid "<b>Subtitle Tracks: %d</b>\n"
-msgstr "<b>Untertitelspuren: %d</b>\n"
+msgstr "<b>Untertitlespuren: %d</b>\n"
 
 #: ../src/queuehandler.c:751 ../src/queuehandler.c:778
 msgid " (Forced Only)"
@@ -3917,13 +3917,13 @@ msgstr "Bevorzugte Sprache: %s"
 #: ../src/subtitlehandler.c:1294
 #, c-format
 msgid "Add %s subtitle track if default audio is not %s"
-msgstr "Füge %s Untertitelspur hinzu falls Standardaudio nicht %s ist"
+msgstr "Füge %s Untertitlespur hinzu falls Standardaudio nicht %s ist"
 
 #: ../src/subtitlehandler.c:1299
 #, c-format
 msgid "Add subtitle track if default audio is not your preferred language"
 msgstr ""
-"Untertitelspur hinzufügen, wenn Standardaudio nicht die bevorzugte Sprache "
+"Untertitlespur hinzufügen, wenn Standardaudio nicht die bevorzugte Sprache "
 "ist."
 
 #: ../src/videohandler.c:207 ../src/videohandler.c:226

@@ -59,7 +59,7 @@
 "nWJ-0b-fUA.ibShadowedToolTip" = "Das Auswahlverhalten bestimmt die Spur(en) und Einstellungen die verwendet werden, wenn die Voreinstellung ausgewählt wird.";
 
 /* Class = "NSTextFieldCell"; title = "Subtitles:"; ObjectID = "OYE-GG-Vo3"; */
-"OYE-GG-Vo3.title" = "Untertitel:";
+"OYE-GG-Vo3.title" = "Untertitle:";
 
 /* Class = "NSMenu"; title = "OtherViews"; ObjectID = "qsA-gt-zdK"; */
 "qsA-gt-zdK.title" = "OtherViews";

@@ -1,5 +1,5 @@
 /* Class = "NSTableView"; ibExternalAccessibilityDescription = "Subtitles tracks"; ObjectID = "0yM-wE-D2x"; */
-"0yM-wE-D2x.ibExternalAccessibilityDescription" = "Untertitelspuren";
+"0yM-wE-D2x.ibExternalAccessibilityDescription" = "Untertitlespuren";
 
 /* Class = "NSTableColumn"; headerCell.title = "Encoding"; ObjectID = "1Qg-We-ltR"; */
 "1Qg-We-ltR.headerCell.title" = "Encodierung";
@@ -41,7 +41,7 @@
 "fvq-pE-sOC.headerCell.title" = "Standard";
 
 /* Class = "NSMenuItem"; title = "Add External Subtitles Track…"; ObjectID = "fXD-7h-jMl"; */
-"fXD-7h-jMl.title" = "Externe Untertitelspur hinzufügen …";
+"fXD-7h-jMl.title" = "Externe Untertitlespur hinzufügen …";
 
 /* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "g4b-FM-qX4"; */
 "g4b-FM-qX4.title" = "Item 2";
@@ -53,10 +53,10 @@
 "gYk-0C-2tR.title" = "Text Cell";
 
 /* Class = "NSButton"; ibExternalAccessibilityDescription = "Forced subtitles only"; ObjectID = "HC5-ql-Vcr"; */
-"HC5-ql-Vcr.ibExternalAccessibilityDescription" = "Nur erzwungene Untertitel";
+"HC5-ql-Vcr.ibExternalAccessibilityDescription" = "Nur erzwungene Untertitle";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Forced Only. Use only subtitles marked as “forced” in the selected source track."; ObjectID = "HC5-ql-Vcr"; */
-"HC5-ql-Vcr.ibShadowedToolTip" = "Nur erzwungene. Benutze nur Untertitel die in der ausgewählten Quelle als „erzwungen“ markiert sind.";
+"HC5-ql-Vcr.ibShadowedToolTip" = "Nur erzwungene. Benutze nur Untertitle die in der ausgewählten Quelle als „erzwungen“ markiert sind.";
 
 /* Class = "NSTextFieldCell"; title = "0"; ObjectID = "hhH-c3-gD0"; */
 "hhH-c3-gD0.title" = "0";
@@ -65,10 +65,10 @@
 "HQq-Mp-4sI.title" = "Item 2";
 
 /* Class = "NSMenuItem"; ibShadowedToolTip = "Add new SRT/SSA subtitle to the list."; ObjectID = "HW0-PS-t0U"; */
-"HW0-PS-t0U.ibShadowedToolTip" = "Einen neuen SRT/SSA-Untertitel zur Liste hinzufügen.";
+"HW0-PS-t0U.ibShadowedToolTip" = "Einen neuen SRT/SSA-Untertitle zur Liste hinzufügen.";
 
 /* Class = "NSMenuItem"; title = "Add External Subtitles Track…"; ObjectID = "HW0-PS-t0U"; */
-"HW0-PS-t0U.title" = "Externe Untertitelspur hinzufügen …";
+"HW0-PS-t0U.title" = "Externe Untertitlespur hinzufügen …";
 
 /* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "SRT/SSA Language"; ObjectID = "Inz-O5-B8g"; */
 "Inz-O5-B8g.ibExternalAccessibilityDescription" = "SRT/SSA-Sprache";
@@ -92,7 +92,7 @@
 "mdO-Qu-3Pb.ibExternalAccessibilityDescription" = "Standard";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Default flag. Mark the selected subtitles track as the default to be displayed on playback."; ObjectID = "mdO-Qu-3Pb"; */
-"mdO-Qu-3Pb.ibShadowedToolTip" = "Standard. Markiert den ausgewählten Untertitel als den Untertitel der standardmäßig angezeigt werden soll.";
+"mdO-Qu-3Pb.ibShadowedToolTip" = "Standard. Markiert den ausgewählten Untertitle als den Untertitle der standardmäßig angezeigt werden soll.";
 
 /* Class = "NSMenuItem"; title = "Remove All Tracks"; ObjectID = "mVi-zH-KUq"; */
 "mVi-zH-KUq.title" = "Alle Spuren entfernen";
@@ -113,7 +113,7 @@
 "QRj-KI-a03.title" = "Text";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Configure subtitle tracks Selection Behavior. These settings affect which tracks will be added to the subtitle tracks list, and the settings used for each track."; ObjectID = "QsM-28-Pya"; */
-"QsM-28-Pya.ibShadowedToolTip" = "Konfiguriert das Auswahlverhalten der Untertitelspuren. Diese Einstellungen bestimmen welche Spuren zur Liste der Untertitelspuren hinzugefügt werden und die Einstellungen welche für jede Spur benutzt werden.";
+"QsM-28-Pya.ibShadowedToolTip" = "Konfiguriert das Auswahlverhalten der Untertitlespuren. Diese Einstellungen bestimmen welche Spuren zur Liste der Untertitlespuren hinzugefügt werden und die Einstellungen welche für jede Spur benutzt werden.";
 
 /* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "SRT/SSA Character Encoding"; ObjectID = "QV0-kE-4yR"; */
 "QV0-kE-4yR.ibExternalAccessibilityDescription" = "SRT/SSA-Zeichenkodierung";
@@ -134,13 +134,13 @@
 "S2I-Jd-Lyg.title" = "Alle Spuren hinzufügen";
 
 /* Class = "NSScrollView"; ibShadowedToolTip = "Subtitle tracks list. Track selection behavior and settings are loaded from the selected preset, and may be configured using the subtitle Selection Behavior dialog."; ObjectID = "Syo-rH-vof"; */
-"Syo-rH-vof.ibShadowedToolTip" = "Liste der Untertitelspuren. Das Auswahlverhalten und die Einstellungen der Spuren werden aus den ausgewählten Voreinstellungen geladen und möglicherweise vom Dialog des Untertitelspurenauswahlverhaltens konfiguriert.";
+"Syo-rH-vof.ibShadowedToolTip" = "Liste der Untertitlespuren. Das Auswahlverhalten und die Einstellungen der Spuren werden aus den ausgewählten Voreinstellungen geladen und möglicherweise vom Dialog des Untertitlespurenauswahlverhaltens konfiguriert.";
 
 /* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Selected track"; ObjectID = "Tf3-cP-TGw"; */
 "Tf3-cP-TGw.ibExternalAccessibilityDescription" = "Ausgewählte Spur";
 
 /* Class = "NSPopUpButton"; ibShadowedToolTip = "Subtitles language and type."; ObjectID = "Tf3-cP-TGw"; */
-"Tf3-cP-TGw.ibShadowedToolTip" = "Type und Sprache der Untertitel.";
+"Tf3-cP-TGw.ibShadowedToolTip" = "Type und Sprache der Untertitle.";
 
 /* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "ThR-Cn-Vfr"; */
 "ThR-Cn-Vfr.title" = "Item 3";
@@ -158,7 +158,7 @@
 "vHW-fn-RSG.title" = "Pop Up";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Reload the subtitles tracks list using the configured Selection Behavior."; ObjectID = "Vxx-gk-9kY"; */
-"Vxx-gk-9kY.ibShadowedToolTip" = "Läd die Liste der Untertitelspuren anhand des konfigurierten Auswahlverhaltens neu.";
+"Vxx-gk-9kY.ibShadowedToolTip" = "Läd die Liste der Untertitlespuren anhand des konfigurierten Auswahlverhaltens neu.";
 
 /* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "yDg-DK-z5D"; */
 "yDg-DK-z5D.title" = "Item 1";
@@ -170,5 +170,5 @@
 "zpm-9Z-Hsq.ibExternalAccessibilityDescription" = "Eingebrannt";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Burned In. Make the selected subtitles permanent by overlaying them onto the video track."; ObjectID = "zpm-9Z-Hsq"; */
-"zpm-9Z-Hsq.ibShadowedToolTip" = "Eingebrannt. Macht die ausgewählten Untertitel permanent indem sie mit dem Video überlagert werden.";
+"zpm-9Z-Hsq.ibShadowedToolTip" = "Eingebrannt. Macht die ausgewählten Untertitle permanent indem sie mit dem Video überlagert werden.";
 

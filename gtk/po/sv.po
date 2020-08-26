@@ -218,7 +218,7 @@ msgstr "Öppna _källa"
 
 #: ../src/ghb.m4.h:62
 msgid "Open Single _Title"
-msgstr "Öppna enskild titel"
+msgstr "Öppna enskild title"
 
 #: ../src/ghb.m4.h:63
 msgid "Set _Destination"
@@ -381,9 +381,9 @@ msgid ""
 "By default the longest title is chosen.\n"
 "This is often the feature title of a DVD."
 msgstr ""
-"Ange titel att koda om.\n"
-"Som standard väljs den längsta titeln.\n"
-"Detta är ofta titeln på en DVD-skiva."
+"Ange title att koda om.\n"
+"Som standard väljs den längsta titlen.\n"
+"Detta är ofta titlen på en DVD-skiva."
 
 #: ../src/ghb.m4.h:104
 msgid "<small>No Titles</small>"
@@ -2679,7 +2679,7 @@ msgstr "Ljudspårsval och inställningar"
 
 #: ../src/fr.handbrake.ghb.appdata.xml.template.h:12
 msgid "Chapter title editing"
-msgstr "Redigera avsnittstitel"
+msgstr "Redigera avsnittstitle"
 
 #: ../src/main.c:100
 #, c-format
@@ -2838,7 +2838,7 @@ msgstr "Stoppa sökning"
 #: ../src/callbacks.c:2667 ../src/hb-backend.c:2103 ../src/hb-backend.c:2223
 #: ../src/hb-backend.c:2235
 msgid "No Title Found"
-msgstr "Ingen titel hittades"
+msgstr "Ingen title hittades"
 
 #: ../src/callbacks.c:2668
 msgid "New Video"
@@ -2920,7 +2920,7 @@ msgstr "Söker efter starttid, "
 #: ../src/callbacks.c:4053
 #, c-format
 msgid "Scanning title %d of %d..."
-msgstr "Genomsöker titel %d av %d..."
+msgstr "Genomsöker title %d av %d..."
 
 #: ../src/callbacks.c:4057
 #, c-format
@@ -3418,7 +3418,7 @@ msgstr "Fortsätt"
 #. No valid title, stop right there
 #: ../src/hb-backend.c:4404 ../src/hb-backend.c:4478
 msgid "No title found.\n"
-msgstr "Ingen titel hittades.\n"
+msgstr "Ingen title hittades.\n"
 
 #: ../src/hb-backend.c:4425
 #, c-format
@@ -3861,12 +3861,12 @@ msgstr ""
 
 #: ../src/queuehandler.c:1798
 msgid "Select this title for adding to the queue.\n"
-msgstr "Välj den här titeln för att läggas till i kön.\n"
+msgstr "Välj den här titlen för att läggas till i kön.\n"
 
 #. Title label
 #: ../src/queuehandler.c:1806
 msgid "No Title"
-msgstr "Ingen titel"
+msgstr "Ingen title"
 
 #: ../src/queuehandler.c:1816
 msgid ""
@@ -3874,8 +3874,8 @@ msgid ""
 "This title will not be added to the queue unless you change\n"
 "the output file name.\n"
 msgstr ""
-"Det finns en annan titel med samma målfilsnamn.\n"
-"Denna titel kommer inte att läggas till i kön, om du\n"
+"Det finns en annan title med samma målfilsnamn.\n"
+"Denna title kommer inte att läggas till i kön, om du\n"
 "inte först ändrar utdatafilens namn.\n"
 
 #: ../src/queuehandler.c:2343
