@@ -21,7 +21,7 @@ namespace HandBrakeWPF.Services.Encode
 
     using EncodeCompletedEventArgs = HandBrakeWPF.Services.Encode.EventArgs.EncodeCompletedEventArgs;
     using EncodeCompletedStatus = HandBrakeWPF.Services.Encode.Interfaces.EncodeCompletedStatus;
-    using EncodeProgessStatus = HandBrakeWPF.Services.Encode.Interfaces.EncodeProgessStatus;
+    using EncodeProgressStatus = HandBrakeWPF.Services.Encode.Interfaces.EncodeProgressStatus;
     using EncodeProgressEventArgs = HandBrakeWPF.Services.Encode.EventArgs.EncodeProgressEventArgs;
     using EncodeTask = HandBrakeWPF.Services.Encode.Model.EncodeTask;
     using GeneralApplicationException = HandBrakeWPF.Exceptions.GeneralApplicationException;
@@ -56,7 +56,7 @@ namespace HandBrakeWPF.Services.Encode
         /// <summary>
         /// Encode process has progressed
         /// </summary>
-        public event EncodeProgessStatus EncodeStatusChanged;
+        public event EncodeProgressStatus EncodeStatusChanged;
 
         #endregion
 
@@ -79,7 +79,7 @@ namespace HandBrakeWPF.Services.Encode
         /// </param>
         public void InvokeEncodeStatusChanged(EncodeProgressEventArgs e)
         {
-            EncodeProgessStatus handler = this.EncodeStatusChanged;
+            EncodeProgressStatus handler = this.EncodeStatusChanged;
             handler?.Invoke(this, e);
         }
 
