@@ -360,7 +360,7 @@ namespace HandBrake.Interop.Interop
         /// The encoder to examine.
         /// </param>
         /// <returns>
-        /// True if the given encoder is comatible with the given audio track.
+        /// True if the given encoder is compatible with the given audio track.
         /// </returns>
         /// <remarks>
         /// Only works with passthrough encoders.
