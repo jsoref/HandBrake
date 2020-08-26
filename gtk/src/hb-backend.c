@@ -4696,7 +4696,7 @@ vert_line(
 }
 
 static void
-horz_line(
+horiz_line(
     GdkPixbuf * pb,
     guint8 r,
     guint8 g,
@@ -4758,7 +4758,7 @@ hash_pixbuf(
         // horizontal lines
         for (ii = y, jj = 0; ii+line_width < y+h; ii += step, jj++)
         {
-            horz_line(pb, c[jj&3].r, c[jj&3].g, c[jj&3].b, x, ii, w, line_width);
+            horiz_line(pb, c[jj&3].r, c[jj&3].g, c[jj&3].b, x, ii, w, line_width);
         }
     }
 }
