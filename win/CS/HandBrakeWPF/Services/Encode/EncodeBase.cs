@@ -143,7 +143,7 @@ namespace HandBrakeWPF.Services.Encode
                 // Copy the Log to HandBrakes log folder in the users application data folder.
                 this.WriteFile(logContent, Path.Combine(logDir, encodeLogFile));
 
-                // Save a copy of the log file in the same location as the enocde.
+                // Save a copy of the log file in the same location as the encode.
                 if (this.userSettingService.GetUserSetting<bool>(UserSettingConstants.SaveLogWithVideo))
                 {
                     this.WriteFile(logContent, Path.Combine(encodeDestinationPath, encodeLogFile));
