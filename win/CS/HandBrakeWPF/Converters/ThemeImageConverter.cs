@@ -37,22 +37,22 @@ namespace HandBrakeWPF.Converters
             if (!string.IsNullOrEmpty(image))
             {
                 
-                string direcotry = "Images/"; 
+                string directory = "Images/"; 
                 if (image.Contains("/"))
                 {
                     string[] components = image.Split('/');
                     string file = components.LastOrDefault();
-                    direcotry = image.Replace(file, string.Empty);
+                    directory = image.Replace(file, string.Empty);
                     image = file;
                 }
 
                 if (this.isDarkTheme)
                 {
-                    return direcotry + "Dark/" + image;
+                    return directory + "Dark/" + image;
                 }
                 else
                 {
-                    return direcotry + "Light/" + image;
+                    return directory + "Light/" + image;
                 }
             }
 
