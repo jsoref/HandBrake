@@ -172,14 +172,14 @@ NSString *kHBLanguagesDragRowsType = @"kHBLanguagesDragRowsType";
 - (void)awakeFromNib
 {
 	[self.tableView registerForDraggedTypes:@[kHBLanguagesDragRowsType]];
-	self.isDragginEnabled = YES;
+	self.isDraggingEnabled = YES;
 }
 
 #pragma mark - NSTableView Delegate
 
 - (BOOL)tableView:(NSTableView *)tableView writeRowsWithIndexes:(NSIndexSet *)rowIndexes toPasteboard:(NSPasteboard *)pboard
 {
-    if (self.isDragginEnabled)
+    if (self.isDraggingEnabled)
 	{
         NSData *data = nil;
         if (self.showSelectedOnly)
@@ -211,7 +211,7 @@ NSString *kHBLanguagesDragRowsType = @"kHBLanguagesDragRowsType";
         [pboard setData:data forType:kHBLanguagesDragRowsType];
     }
 
-    return self.isDragginEnabled;
+    return self.isDraggingEnabled;
 }
 
 - (NSDragOperation)tableView:(NSTableView *)view
