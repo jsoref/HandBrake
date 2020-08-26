@@ -1214,7 +1214,7 @@ int encqsvInit(hb_work_object_t *w, hb_job_t *job)
 
     // set VBV here (this will be overridden for CQP and ignored for LA)
     // only set BufferSizeInKB, InitialDelayInKB and MaxKbps if we have
-    // them - otheriwse Media SDK will pick values for us automatically
+    // them - otherwise Media SDK will pick values for us automatically
     if (pv->param.rc.vbv_buffer_size > 0)
     {
         if (pv->param.rc.vbv_buffer_init > 1.0)
