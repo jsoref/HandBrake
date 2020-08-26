@@ -1516,7 +1516,7 @@ Puede configurar el nivel en el que aparece esta alerta en las preferencias.
   <data name="Shared_ChooseLanguages" xml:space="preserve">
     <value>Seleccione idiomas:</value>
   </data>
-  <data name="Shared_ChosenLangages" xml:space="preserve">
+  <data name="Shared_ChosenLanguages" xml:space="preserve">
     <value>Seleccione Idiomas:</value>
   </data>
   <data name="Shared_ConfigureDefaultBehaviours" xml:space="preserve">
