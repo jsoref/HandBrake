@@ -183,9 +183,9 @@ namespace HandBrakeWPF.Services
                     using (StreamReader reader = new StreamReader(this.settingsFile))
                     {
                         string appSettings = reader.ReadToEnd();
-                        Dictionary<string, object> deserialisedSettings = JsonConvert.DeserializeObject<Dictionary<string, object>>(appSettings);
+                        Dictionary<string, object> deserializedSettings = JsonConvert.DeserializeObject<Dictionary<string, object>>(appSettings);
 
-                        this.userSettings = deserialisedSettings;
+                        this.userSettings = deserializedSettings;
                     }
                 }
                 else if (VersionHelper.IsNightly() && File.Exists(this.releaseSettingsFile))
@@ -201,8 +201,8 @@ namespace HandBrakeWPF.Services
                     using (StreamReader reader = new StreamReader(this.settingsFile))
                     {
                         string appSettings = reader.ReadToEnd();
-                        Dictionary<string, object> deserialisedSettings = JsonConvert.DeserializeObject<Dictionary<string, object>>(appSettings);
-                        this.userSettings = deserialisedSettings;
+                        Dictionary<string, object> deserializedSettings = JsonConvert.DeserializeObject<Dictionary<string, object>>(appSettings);
+                        this.userSettings = deserializedSettings;
                     }
                 }
                 else
