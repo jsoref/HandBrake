@@ -1832,7 +1832,7 @@ Foreign Audio Preferred, else First - Если существует дорожк
   <data name="QueueView_PlayMediaFile" xml:space="preserve">
     <value>Воспроизвести файл</value>
   </data>
-  <data name="Options_ApplicaitonToolbar" xml:space="preserve">
+  <data name="Options_ApplicationToolbar" xml:space="preserve">
     <value>Панель инструментов приложения</value>
   </data>
   <data name="Options_ShowToolbarAddAll" xml:space="preserve">

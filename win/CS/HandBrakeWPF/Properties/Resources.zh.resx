@@ -1822,7 +1822,7 @@ Foreign Audio Preferred, else First - 如果存在外语轨道，则会将其烧
   <data name="QueueView_PlayMediaFile" xml:space="preserve">
     <value>播放文件</value>
   </data>
-  <data name="Options_ApplicaitonToolbar" xml:space="preserve">
+  <data name="Options_ApplicationToolbar" xml:space="preserve">
     <value>应用程序工具栏</value>
   </data>
   <data name="Options_ShowToolbarAddAll" xml:space="preserve">

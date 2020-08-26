@@ -2817,9 +2817,9 @@ namespace HandBrakeWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Application Toolbar.
         /// </summary>
-        public static string Options_ApplicaitonToolbar {
+        public static string Options_ApplicationToolbar {
             get {
-                return ResourceManager.GetString("Options_ApplicaitonToolbar", resourceCulture);
+                return ResourceManager.GetString("Options_ApplicationToolbar", resourceCulture);
             }
         }
         

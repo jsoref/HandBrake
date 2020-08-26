@@ -1833,7 +1833,7 @@ HandBrake를 종료하시겠습니까?</value>
   <data name="QueueView_PlayMediaFile" xml:space="preserve">
     <value>파일 재생</value>
   </data>
-  <data name="Options_ApplicaitonToolbar" xml:space="preserve">
+  <data name="Options_ApplicationToolbar" xml:space="preserve">
     <value>프로그램 툴바</value>
   </data>
   <data name="Options_ShowToolbarAddAll" xml:space="preserve">

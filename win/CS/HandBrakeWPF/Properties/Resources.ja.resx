@@ -1832,7 +1832,7 @@ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  021
   <data name="QueueView_PlayMediaFile" xml:space="preserve">
     <value>ファイルを再生</value>
   </data>
-  <data name="Options_ApplicaitonToolbar" xml:space="preserve">
+  <data name="Options_ApplicationToolbar" xml:space="preserve">
     <value>アプリケーションツールバー</value>
   </data>
   <data name="Options_ShowToolbarAddAll" xml:space="preserve">
