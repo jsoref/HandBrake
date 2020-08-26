@@ -54,7 +54,7 @@ namespace HandBrake.Worker
             catch (Exception e)
             {
                 failedStart = true;
-                Console.WriteLine(string.Format("Worker: Unable to start HTTP Server. Mabye the port {0} is in use?", port));
+                Console.WriteLine(string.Format("Worker: Unable to start HTTP Server. Maybe the port {0} is in use?", port));
                 Console.WriteLine("Worker Exception: " + e);
             }
         }
