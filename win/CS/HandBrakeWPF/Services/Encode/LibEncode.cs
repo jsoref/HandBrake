@@ -61,7 +61,7 @@ namespace HandBrakeWPF.Services.Encode
             this.encodeTaskFactory = new EncodeTaskFactory(this.userSettingService, hbFunctionsProvider.GetHbFunctionsWrapper());
         }
 
-        public bool IsPasued { get; private set; }
+        public bool IsPaused { get; private set; }
 
         public void Start(EncodeTask task, HBConfiguration configuration, string basePresetName)
         {
@@ -151,7 +151,7 @@ namespace HandBrakeWPF.Services.Encode
             {
                 this.instance.PauseEncode();
                 this.ServiceLogMessage("Encode Paused");
-                this.IsPasued = true;
+                this.IsPaused = true;
             }
         }
 
@@ -161,7 +161,7 @@ namespace HandBrakeWPF.Services.Encode
             {
                 this.instance.ResumeEncode();
                 this.ServiceLogMessage("Encode Resumed");
-                this.IsPasued = false;
+                this.IsPaused = false;
             }
         }
 
