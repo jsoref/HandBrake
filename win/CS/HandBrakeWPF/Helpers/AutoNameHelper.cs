@@ -143,7 +143,7 @@ namespace HandBrakeWPF.Helpers
                         .RegexReplace(Constants.Chapters, combinedChapterTag)
                         .RegexReplace(Constants.Date, DateTime.Now.Date.ToShortDateString().Replace('/', '-'))
                         .RegexReplace(Constants.Time, DateTime.Now.ToString("HH-mm"))
-                        .RegexReplace(Constants.CretaionDate, createDate)
+                        .RegexReplace(Constants.CreationDate, createDate)
                         .RegexReplace(Constants.CreationTime, createTime);
 
                 if (task.VideoEncodeRateType == VideoEncodeRateType.ConstantQuality)
