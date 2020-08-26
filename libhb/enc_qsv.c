@@ -2231,7 +2231,7 @@ int encqsvWork(hb_work_object_t *w, hb_buffer_t **buf_in, hb_buffer_t **buf_out)
         }
         else
         {
-            // Create black buffer in the begining of the encoding, usually first 2 frames
+            // Create black buffer in the beginning of the encoding, usually first 2 frames
             hb_qsv_get_free_surface_from_pool_with_range(pv->job->qsv.ctx->hb_dec_qsv_frames_ctx, HB_QSV_POOL_SURFACE_SIZE - HB_QSV_POOL_ENCODER_SIZE, HB_QSV_POOL_SURFACE_SIZE, &mid, &surface);
             frames_ctx = pv->job->qsv.ctx->hb_dec_qsv_frames_ctx;
         }
