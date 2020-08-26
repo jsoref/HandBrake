@@ -1326,7 +1326,7 @@ Soll sie überschrieben werden?</value>
   <data name="PictureSettingsView_Custom" xml:space="preserve">
     <value>Eigene</value>
   </data>
-  <data name="PictureSettingsView_DisplayWitdh" xml:space="preserve">
+  <data name="PictureSettingsView_DisplayWidth" xml:space="preserve">
     <value>Anzeigebreite:</value>
   </data>
   <data name="PictureSettingsView_Height" xml:space="preserve">
