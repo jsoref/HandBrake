@@ -554,7 +554,7 @@ namespace HandBrakeWPF.ViewModels
                 this.sourceParValues = title.ParVal;
                 this.sourceResolution = title.Resolution;
 
-                // Update the cropping values, preffering those in the presets.
+                // Update the cropping values, preferring those in the presets.
                 if (!preset.Task.HasCropping)
                 {
                     this.Task.Cropping.Top = title.AutoCropDimensions.Top;
