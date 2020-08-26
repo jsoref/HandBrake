@@ -52,9 +52,9 @@ namespace HandBrakeWPF.ViewModels
             this.errorService = errorService;
             this.windowManager = windowManager;
             this.Title = Resources.AddPresetView_AddPreset;
-            this.Preset = new Preset { IsBuildIn = false, IsDefault = false, Category = PresetService.UserPresetCatgoryName };
+            this.Preset = new Preset { IsBuildIn = false, IsDefault = false, Category = PresetService.UserPresetCategoryName };
             this.PresetCategories = presetService.GetPresetCategories(true).Union(new List<PresetDisplayCategory> { addNewCategory }).ToList();
-            this.SelectedPresetCategory = this.PresetCategories.FirstOrDefault(n => n.Category == PresetService.UserPresetCatgoryName);
+            this.SelectedPresetCategory = this.PresetCategories.FirstOrDefault(n => n.Category == PresetService.UserPresetCategoryName);
 
             this.CustomHeight = 0;
             this.CustomWidth = 0;
@@ -89,7 +89,7 @@ namespace HandBrakeWPF.ViewModels
                 }
                 else
                 {
-                    this.PresetCategory = PresetService.UserPresetCatgoryName;
+                    this.PresetCategory = PresetService.UserPresetCategoryName;
                 }
             }
         }
